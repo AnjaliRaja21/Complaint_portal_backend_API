@@ -1,0 +1,29 @@
+#GET http://localhost:8080/viewComplaint
+
+   #   POST http://localhost:8080/register
+   #    Content-Type: application/json
+	
+   #     	{
+   #        "name" : "asha",
+   #        "email" : "asha@gmail.com"
+   #       }
+
+#  POST http://localhost:8080/login
+#   Content-Type: application/json
+	
+#    	{
+#       "secretCode" : "663472"
+#     }
+
+  POST http://localhost:8080/submitComplaint
+     Content-Type: application/json
+	
+     	{
+         "title" : "murder cash",
+         "summary" : "tulsi",
+         "rating" : 3
+        }
+
+GET http://localhost:8080/getAllComplaintsForUser
+
+GET http://localhost:8080/getAllComplaintsForAdmin
